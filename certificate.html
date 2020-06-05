@@ -1,0 +1,92 @@
+<html>
+		​
+		<head>
+		    <title>certificate</title>
+		    <style>
+		        body {
+		            margin: 0;
+		            padding: 0;
+		            overflow: hidden;
+		            position: relative;
+		        }
+		        
+		        h1,
+		        h3 {
+		            margin: 0;
+		            color: #ffffff;
+		        }
+		        
+		        .title-text {
+		            text-align: center;
+		        }
+		        
+		        .title-text h1 {
+		            font-size: 38px;
+		            letter-spacing: 1;
+		        }
+		        
+		        .title-text h3 {
+		            font-size: 24px;
+		            letter-spacing: 1;
+		        }
+		        
+		        .logo-div {
+		            display: flex;
+		            justify-content: space-between;
+		            padding: 30px 30px 140px 30px;
+		        }
+		        
+		        .main {
+		            background-color: #004c1b;
+		        }
+		        
+		        .certificate-center {
+		            background-color: #ffffff;
+		            border-radius: 50%;
+		            text-align: center;
+		        }
+		        
+		        .footer {
+		            background-color: #004c1b;
+		            position: absolute;
+		            bottom: 0;
+		            left: 0;
+		            right: 0;
+		            color: #ffffff;
+		            padding: 0 20px;
+		        }
+		    </style>
+		</head>
+		​
+		<body>
+		    <div class="main">
+		        <div class="logo-div">
+		            <img src="Logo.png" alt="">
+		            <div class="title-text">
+		                <h1>FACULTY OF EDUCATION</h1>
+		                <h3>SAURASTRA UNIVERCITY OF RAJKOT</h3>
+		            </div>
+		            <img src="Logo.png" alt="">
+		        </div>
+		    </div>
+		    <div class="certificate-center">
+		        <img src="certificate .png" alt="">
+		        <p> - OF APPRECIATION - </p>
+		        <p>This certificate declares that</p>
+		        <h2>`+item.fullName+`</h2>
+		        <h6>from other </h6>
+		        <p>has completed</p>
+		​
+		    </div>
+		    <div style="background-color: #004c1b;
+		            position: absolute;
+		            bottom: 0;
+		            left: 0;
+		            right: 0;
+		            color: #ffffff;
+		            padding: 5px 20px;" class="footer">
+		        <p>CERTIFICATE ID : {{certificate id}}</p>
+		    </div>
+		</body>
+		​
+		</html>

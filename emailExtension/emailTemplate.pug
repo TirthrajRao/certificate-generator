@@ -1,0 +1,69 @@
+html
+  head
+  body
+    | ​
+    title certificate
+    style.
+      body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      position: relative;
+      }
+      h1,
+      h3 {
+      margin: 0;
+      color: #ffffff;
+      }
+      .title-text {
+      text-align: center;
+      }
+      .title-text h1 {
+      font-size: 38px;
+      letter-spacing: 1;
+      }
+      .title-text h3 {
+      font-size: 24px;
+      letter-spacing: 1;
+      }
+      .logo-div {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 30px 140px 30px;
+      }
+      .main {
+      background-color: #004c1b;
+      }
+      .certificate-center {
+      background-color: #ffffff;
+      border-radius: 50%;
+      text-align: center;
+      }
+      .footer {
+      background-color: #004c1b;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      color: #ffffff;
+      padding: 0 20px;
+      }
+    | ​
+    .main
+      .logo-div
+        img(src='Logo.png', alt='')
+        .title-text
+          h1 FACULTY OF EDUCATION
+          h3 SAURASTRA UNIVERCITY OF RAJKOT
+        img(src='Logo.png', alt='')
+    .certificate-center
+      img(src='certificate .png', alt='')
+      p  - OF APPRECIATION - 
+      p This certificate declares that
+      h2 Full name
+      h6 from other
+      p has completed
+      | ​
+    .footer
+      p CERTIFICATE ID : {{certificate id}}
+    | ​
