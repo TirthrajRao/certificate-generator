@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@sendgrid/mail": "^7.1.1",
-    "async": "^3.2.0",
+    "async": "^3.2.2",
     "async-series": "0.0.1",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
